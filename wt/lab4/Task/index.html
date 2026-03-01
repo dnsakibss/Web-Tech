@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Floating Contact Widget</title>
+
+    <style>
+        body {
+            height: 1500px;
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+        }
+
+        .contact-box {
+            position: fixed;          
+            bottom: 20px;             
+            right: 20px;              
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 200px;
+            z-index: 1000;           
+        }
+
+        
+        .contact-box:hover {
+            background-color: #45a049;
+        }
+
+        .contact-box a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Welcome to Our Website for WebTech course</h1>
+<p>Scroll to explore</p>
+
+
+<div class="contact-box">
+    <h3>Contact Us</h3>
+    <p> <a href="tel:+8801234567890">+8801234567890</a></p>
+    <p> <a href="mailto:info@example.com">info@example.com</a></p>
+</div>
+
+</body>
+</html>
